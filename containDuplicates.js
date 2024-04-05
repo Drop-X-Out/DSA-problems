@@ -9,7 +9,6 @@ var containsDuplicate = function (nums) {
         if (uniqueSet.has(num)) {
             return true
         }
-
         uniqueSet.add(num);
     }
     return false;
